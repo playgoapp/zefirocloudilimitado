@@ -86,6 +86,25 @@
             margin: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
+        .features {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature {
+            width: 200px;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .feature i {
+            font-size: 3em;
+            color: #007bff;
+        }
         footer {
             background: #333;
             color: #fff;
@@ -107,6 +126,30 @@
     <div class="container">
         <h2>Desarrollada por Bryan Cortes y Piter Magaña</h2>
         <p>Accede a tus archivos desde cualquier lugar sin límites ni costos.</p>
+
+        <!-- Descripción de Características -->
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-infinity"></i>
+                <h4>Espacio Ilimitado</h4>
+                <p>Sin restricciones para almacenar todos tus archivos, fotos y videos.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-cloud"></i>
+                <h4>Acceso en la Nube</h4>
+                <p>Accede a tus datos desde cualquier dispositivo y en cualquier momento.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h4>Seguridad de Datos</h4>
+                <p>Almacenamiento seguro con protección de última generación.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-fast-forward"></i>
+                <h4>Rendimiento Rápido</h4>
+                <p>Carga y descarga rápida para que nunca pierdas tiempo.</p>
+            </div>
+        </div>
 
         <a href="https://zefiro.me" class="btn" target="_blank">
             <i class="fas fa-globe"></i> Visita la versión web
