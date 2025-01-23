@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Zefiro - Nube ilimitada gratis desarrollada por Bryan Cortes y Piter Magaña.">
     <meta property="og:title" content="Zefiro - Nube Ilimitada Gratis">
-    <meta property="og:description" content="Almacenamiento en la nube sin límites, seguro y accesible. Desarrollado por Bryan Cortes y Piter Magaña.">
+    <meta property="og:description" content="Almacenamiento seguro, rápido y sin límites. Desarrollado por Bryan Cortes y Piter Magaña.">
     <meta property="og:image" content="https://play-lh.googleusercontent.com/94xlTTUy9uyyq5SDWoTdT2fsqXyzdG83HsJcOjqBXPyCzR4QuwIVQ1U0QqyGbjGUtU7f">
     <meta property="og:url" content="https://zefiro.me">
     <title>Zefiro - Nube Ilimitada Gratis</title>
@@ -79,17 +79,19 @@
             margin-top: 40px;
             text-align: left;
         }
-        .features ul {
-            list-style: none;
-            padding: 0;
+        .features .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
         }
-        .features ul li {
-            background: url('https://cdn-icons-png.flaticon.com/512/845/845646.png') no-repeat left center;
-            background-size: 24px;
-            padding-left: 35px;
-            margin: 10px 0;
+        .features .feature-item i {
+            font-size: 2em;
+            color: #007bff;
+            margin-right: 15px;
+        }
+        .features .feature-item div {
             font-size: 1.2em;
-            color: #333;
+            font-weight: bold;
         }
         .image-gallery {
             margin-top: 40px;
@@ -126,15 +128,30 @@
 
         <div class="features">
             <h3>Características principales:</h3>
-            <ul>
-                <li>Almacenamiento ilimitado en la nube.</li>
-                <li>Acceso desde cualquier dispositivo.</li>
-                <li>Seguridad y privacidad garantizadas.</li>
-                <li>Respaldo automático de tus archivos.</li>
-                <li>Compatibilidad con múltiples formatos.</li>
-                <li>Descarga y subida de archivos sin restricciones.</li>
-                <li>Sin anuncios ni interrupciones.</li>
-            </ul>
+            <div class="feature-item">
+                <i class="fas fa-cloud"></i>
+                <div>Almacenamiento 100% ilimitado sin restricciones</div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-lock"></i>
+                <div>Seguridad y privacidad garantizadas</div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-sync"></i>
+                <div>Respaldo automático de tus archivos</div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-mobile-alt"></i>
+                <div>Compatible con todos los dispositivos</div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-download"></i>
+                <div>Descarga y subida sin interrupciones</div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-bolt"></i>
+                <div>Alta velocidad de transferencia</div>
+            </div>
         </div>
 
         <a href="https://zefiro.me" class="btn" target="_blank">
